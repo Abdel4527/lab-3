@@ -1,0 +1,75 @@
+#head{
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
+#second,#first,#third,#fourth{
+    text-align: center;
+    
+}
+
+h3,p#mid{
+    display: inline;
+    font-family: sans-serif;
+}
+
+li{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+ul#players li:hover{
+    color: blue;
+}
+h3#starting{
+    background-color: green;
+}
+
+p#mid{
+    background-color: beige;
+}
+
+
+
+ol strong{
+    background-color:bisque;
+}
+
+#table{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    
+    
+    
+}
+nav>div{
+    border: 2px solid black;
+    
+    
+    
+}
+main>div{
+    border: 2px solid black;
+    text-align: center;
+    align-content: stretch;
+}
+#wins:hover{
+    color:green;
+    
+
+}
+#losses:hover{
+    color:red;
+}
+aside>div{
+    border: 2px solid black;
+    text-align: center;
+}
+header{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+
